@@ -1,3 +1,15 @@
 body {
-  background: red;
+  background: #333;
+  color: #efefef;
+}
+body a {
+  color: #e4e4e4;
+}
+body p {
+  color: #efefef;
+}
+body div {
+  box-shadow: 1px 1px 5px #000;
+  margin: 10px;
+  padding: 10px;
 }
