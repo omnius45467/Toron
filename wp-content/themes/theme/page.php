@@ -2,14 +2,14 @@
 
 	<main role="main">
 		<!-- section -->
-		<section>
+		<section class="row">
 
 			<h1><?php the_title(); ?></h1>
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<article class="col-md-12" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 				<?php the_content(); ?>
 
@@ -27,7 +27,7 @@
 		<?php else: ?>
 
 			<!-- article -->
-			<article>
+			<article class="col-md-12">
 
 				<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
 

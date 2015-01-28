@@ -13,3 +13,8 @@ body div {
   margin: 10px;
   padding: 10px;
 }
+body footer {
+  height: 500px;
+  background: #000;
+  text-align: center;
+}

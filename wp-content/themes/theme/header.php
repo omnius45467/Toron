@@ -11,7 +11,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
-
 		<?php wp_head(); ?>
 		<script>
         // conditionizr.com
@@ -21,16 +20,12 @@
             tests: {}
         });
         </script>
-
 	</head>
 	<body <?php body_class(); ?>>
-
 		<!-- wrapper -->
 		<div class="wrapper">
-
 			<!-- header -->
 			<header class="header clear navbar-inverse" role="banner">
-
 					<!-- logo -->
 					<div class="logo">
 						<a href="<?php echo home_url(); ?>">
@@ -44,8 +39,5 @@
 						<!-- /nav -->
 					</div>
 					<!-- /logo -->
-
-
-
 			</header>
 			<!-- /header -->
